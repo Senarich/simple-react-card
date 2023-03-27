@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(114, 146, 135);
+}
+.container {
+  display: flex;
+  border: double 5px rgb(220, 133, 133);
+  padding: 5px;
+  margin: 10px auto;
+  width: 70vw;
+}
+.badge {
+  width: 25vw;
+  min-height: 25vw;
+  margin-right: 5px;
+  border: 2px solid;
+  padding: 0.5rem;
+}
+.title,
+.description {
+  border: 2px solid;
+  padding: 3px;
+}
+.title {
+  margin-bottom: 2px;
+  text-align: center;
+}
+.description {
+  background-color: lightblue;
+  min-height: 20vw;
+  padding: 10px 5px;
+}
